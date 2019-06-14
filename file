@@ -1,3 +1,7 @@
-Now that we understand the basics of webhooks, let's go through the process of building out our own webhook powered integration. In this tutorial, we'll create a repository webhook that will be responsible for listing out how popular our repository is, based on the number of Issues it receives per day.
+f you understand the above diagram well and good, but if you don’t, you need not worry, I will be explaining these operations in this Git Tutorial one by one. Let us begin with the basic operations.
+
+You need to install Git on your system first. If you need help with the installation, click here.
+
+In this Git Tutorial, I will show you the commands and the operations using Git Bash. Git Bash is a text-only command line interface for using Git on Windows which provides features to run automated scripts.Now that we understand the basics of webhooks, let's go through the process of building out our own webhook powered integration. In this tutorial, we'll create a repository webhook that will be responsible for listing out how popular our repository is, based on the number of Issues it receives per day.
 
 Creating a webhook is a two-step process. You'll first need to set up how you want your webhook to behave through GitHub--what events should it listen to. After that, you'll set up your server to receive and manage the payload.
